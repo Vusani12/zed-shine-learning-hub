@@ -11,7 +11,7 @@ const Index = () => {
             Zed Shine School Hub
           </h1>
           <p className="text-xl text-muted-foreground mb-8">
-            Comprehensive school management system designed for modern educational institutions.
+            Comprehensive school management system designed for modern educational institutions in Zimbabwe.
           </p>
           <div className="grid md:grid-cols-3 gap-8 mt-16">
             <div className="p-6 border rounded-lg">
