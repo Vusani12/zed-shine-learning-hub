@@ -1,5 +1,5 @@
-import SiteHeader from "@/components/layout/SiteHeader";
-import SiteFooter from "@/components/layout/SiteFooter";
+import ConstructionHeader from "@/components/layout/ConstructionHeader";
+import ConstructionFooter from "@/components/layout/ConstructionFooter";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -8,10 +8,10 @@ import { Label } from "@/components/ui/label";
 const Quote = () => {
   return (
     <div className="min-h-screen flex flex-col">
-      <SiteHeader />
+      <ConstructionHeader />
       <main className="flex-1 container mx-auto px-4 py-16">
         <div className="max-w-2xl mx-auto">
-          <h1 className="text-4xl font-bold text-primary mb-8">Get a Quote</h1>
+          <h1 className="text-4xl font-bold text-primary mb-8">Get a Construction Quote</h1>
           <div className="border rounded-lg p-6">
             <form className="space-y-6">
               <div className="grid md:grid-cols-2 gap-4">
@@ -59,7 +59,7 @@ const Quote = () => {
           </div>
         </div>
       </main>
-      <SiteFooter />
+      <ConstructionFooter />
     </div>
   );
 };

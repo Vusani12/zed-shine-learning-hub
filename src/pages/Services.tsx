@@ -1,34 +1,34 @@
-import SiteHeader from "@/components/layout/SiteHeader";
-import SiteFooter from "@/components/layout/SiteFooter";
+import ConstructionHeader from "@/components/layout/ConstructionHeader";
+import ConstructionFooter from "@/components/layout/ConstructionFooter";
 
 const Services = () => {
   return (
     <div className="min-h-screen flex flex-col">
-      <SiteHeader />
+      <ConstructionHeader />
       <main className="flex-1 container mx-auto px-4 py-16">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-4xl font-bold text-primary mb-8">Our Services</h1>
+          <h1 className="text-4xl font-bold text-primary mb-8">Our Construction Services</h1>
           <div className="grid md:grid-cols-2 gap-8">
             <div className="p-6 border rounded-lg">
-              <h2 className="text-2xl font-semibold mb-4">Student Management</h2>
-              <p className="text-muted-foreground">Comprehensive student information system with enrollment, attendance, and progress tracking.</p>
+              <h2 className="text-2xl font-semibold mb-4">Residential Construction</h2>
+              <p className="text-muted-foreground">Custom homes, renovations, and residential developments built to the highest standards.</p>
             </div>
             <div className="p-6 border rounded-lg">
-              <h2 className="text-2xl font-semibold mb-4">Academic Planning</h2>
-              <p className="text-muted-foreground">Curriculum management, timetable scheduling, and academic calendar coordination.</p>
+              <h2 className="text-2xl font-semibold mb-4">Commercial Projects</h2>
+              <p className="text-muted-foreground">Office buildings, retail spaces, and commercial developments across Zimbabwe.</p>
             </div>
             <div className="p-6 border rounded-lg">
-              <h2 className="text-2xl font-semibold mb-4">Communication Hub</h2>
-              <p className="text-muted-foreground">Seamless communication between teachers, students, and parents through our platform.</p>
+              <h2 className="text-2xl font-semibold mb-4">Civil Engineering</h2>
+              <p className="text-muted-foreground">Infrastructure projects including roads, bridges, and municipal developments.</p>
             </div>
             <div className="p-6 border rounded-lg">
-              <h2 className="text-2xl font-semibold mb-4">Resource Management</h2>
-              <p className="text-muted-foreground">Library management, equipment tracking, and facility scheduling systems.</p>
+              <h2 className="text-2xl font-semibold mb-4">Project Management</h2>
+              <p className="text-muted-foreground">Complete project oversight from planning to completion with quality assurance.</p>
             </div>
           </div>
         </div>
       </main>
-      <SiteFooter />
+      <ConstructionFooter />
     </div>
   );
 };

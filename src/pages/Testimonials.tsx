@@ -1,60 +1,60 @@
-import SiteHeader from "@/components/layout/SiteHeader";
-import SiteFooter from "@/components/layout/SiteFooter";
+import ConstructionHeader from "@/components/layout/ConstructionHeader";
+import ConstructionFooter from "@/components/layout/ConstructionFooter";
 
 const Testimonials = () => {
   return (
     <div className="min-h-screen flex flex-col">
-      <SiteHeader />
+      <ConstructionHeader />
       <main className="flex-1 container mx-auto px-4 py-16">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-4xl font-bold text-primary mb-8">What Our Schools Say</h1>
+          <h1 className="text-4xl font-bold text-primary mb-8">What Our Clients Say</h1>
           <div className="space-y-8">
             <div className="border rounded-lg p-6">
               <blockquote className="text-lg mb-4">
-                "Zed Shine School Hub has revolutionized how we manage our school. The platform is intuitive and has improved communication between all stakeholders."
+                "Chenesai Construction delivered our family home on time and within budget. The quality of work exceeded our expectations."
               </blockquote>
               <div className="flex items-center">
                 <div className="w-12 h-12 bg-primary/20 rounded-full flex items-center justify-center mr-4">
-                  <span className="text-primary font-semibold">MK</span>
+                  <span className="text-primary font-semibold">TM</span>
                 </div>
                 <div>
-                  <p className="font-semibold">Mary Kambala</p>
-                  <p className="text-sm text-muted-foreground">Headmistress, Sunshine Primary School</p>
+                  <p className="font-semibold">Tendai Mukamuri</p>
+                  <p className="text-sm text-muted-foreground">Homeowner, Harare</p>
                 </div>
               </div>
             </div>
             <div className="border rounded-lg p-6">
               <blockquote className="text-lg mb-4">
-                "The student management features are exceptional. We can track everything from attendance to academic progress in one place."
+                "Professional, reliable, and skilled. Our commercial building project was completed to the highest standards."
               </blockquote>
               <div className="flex items-center">
                 <div className="w-12 h-12 bg-secondary/20 rounded-full flex items-center justify-center mr-4">
-                  <span className="text-secondary font-semibold">JM</span>
+                  <span className="text-secondary font-semibold">SM</span>
                 </div>
                 <div>
-                  <p className="font-semibold">Joseph Mwanza</p>
-                  <p className="text-sm text-muted-foreground">Administrator, Excellence High School</p>
+                  <p className="font-semibold">Sarah Moyo</p>
+                  <p className="text-sm text-muted-foreground">Business Owner, Bulawayo</p>
                 </div>
               </div>
             </div>
             <div className="border rounded-lg p-6">
               <blockquote className="text-lg mb-4">
-                "Parents love the transparency and real-time updates about their children's progress. It has strengthened our school community."
+                "The team's attention to detail and commitment to quality made our renovation project a complete success."
               </blockquote>
               <div className="flex items-center">
                 <div className="w-12 h-12 bg-accent/20 rounded-full flex items-center justify-center mr-4">
-                  <span className="text-accent font-semibold">SN</span>
+                  <span className="text-accent font-semibold">JC</span>
                 </div>
                 <div>
-                  <p className="font-semibold">Sarah Nyirenda</p>
-                  <p className="text-sm text-muted-foreground">Principal, Future Leaders Academy</p>
+                  <p className="font-semibold">James Chikwanha</p>
+                  <p className="text-sm text-muted-foreground">Property Developer, Mutare</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </main>
-      <SiteFooter />
+      <ConstructionFooter />
     </div>
   );
 };
