@@ -1,4 +1,4 @@
-import heroImg from "@/assets/asof-hero.jpg";
+// import heroImg from "@/assets/asof-hero.jpg";
 import { Button } from "@/components/ui/button";
 import { useEffect, useRef } from "react";
 
@@ -37,7 +37,9 @@ const Hero = () => {
         </div>
         <div className="relative">
           <div className="surface-glass rounded-xl p-3 card-elevated">
-            <img src={heroImg} alt="ASOFT dashboard with analytics, attendance, finance and timetable widgets for Zimbabwean schools" className="rounded-lg w-full h-auto" loading="eager" />
+            <div className="rounded-lg w-full h-64 bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center text-muted-foreground">
+              School Dashboard Preview
+            </div>
           </div>
         </div>
       </div>

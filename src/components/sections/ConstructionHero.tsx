@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Award, Users, Building } from "lucide-react";
 import { Link } from "react-router-dom";
-import heroImage from "@/assets/chenesai-hero.jpg";
+// import heroImage from "@/assets/chenesai-hero.jpg";
 
 const ConstructionHero = () => {
   return (
@@ -70,11 +70,9 @@ const ConstructionHero = () => {
 
           <div className="relative">
             <div className="relative rounded-2xl overflow-hidden surface-glass">
-              <img
-                src={heroImage}
-                alt="Chenesai Construction - Modern building solutions"
-                className="w-full h-[500px] object-cover"
-              />
+              <div className="w-full h-[500px] bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center text-muted-foreground text-xl">
+                Construction Project Preview
+              </div>
               <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
             </div>
             <div className="absolute -top-4 -right-4 bg-accent-2 text-white p-4 rounded-xl shadow-lg">

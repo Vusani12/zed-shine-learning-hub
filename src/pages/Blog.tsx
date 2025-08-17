@@ -4,9 +4,9 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Calendar, User, ArrowRight } from "lucide-react";
-import zimbabweConstruction from "@/assets/zimbabwe-construction-1.jpg";
-import zimbabweResidential from "@/assets/zimbabwe-residential.jpg";
-import zimbabweCommercial from "@/assets/zimbabwe-commercial.jpg";
+// import zimbabweConstruction from "@/assets/zimbabwe-construction-1.jpg";
+// import zimbabweResidential from "@/assets/zimbabwe-residential.jpg";
+// import zimbabweCommercial from "@/assets/zimbabwe-commercial.jpg";
 
 const Blog = () => {
   const blogPosts = [
@@ -18,7 +18,7 @@ const Blog = () => {
       author: "Chenesai Team",
       date: "2024-01-15",
       category: "Residential",
-      image: zimbabweResidential,
+      image: "/placeholder.svg",
       featured: true
     },
     {
@@ -29,7 +29,7 @@ const Blog = () => {
       author: "Engineering Team",
       date: "2024-01-10",
       category: "Materials",
-      image: zimbabweConstruction,
+      image: "/placeholder.svg",
       featured: false
     },
     {
@@ -40,7 +40,7 @@ const Blog = () => {
       author: "Sustainability Expert",
       date: "2024-01-05",
       category: "Sustainability",
-      image: zimbabweCommercial,
+      image: "/placeholder.svg",
       featured: false
     },
     {
@@ -51,7 +51,7 @@ const Blog = () => {
       author: "Legal Team",
       date: "2023-12-28",
       category: "Regulations",
-      image: zimbabweConstruction,
+      image: "/placeholder.svg",
       featured: false
     },
     {
@@ -62,7 +62,7 @@ const Blog = () => {
       author: "Project Manager",
       date: "2023-12-20",
       category: "Budget",
-      image: zimbabweResidential,
+      image: "/placeholder.svg",
       featured: false
     },
     {
@@ -73,7 +73,7 @@ const Blog = () => {
       author: "Industry Analyst",
       date: "2023-12-15",
       category: "Commercial",
-      image: zimbabweCommercial,
+      image: "/placeholder.svg",
       featured: false
     }
   ];
